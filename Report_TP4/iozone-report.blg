@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: iozone-report.aux
+The style file: abbrv.bst
+Database file #1: ref.bib.bib
+Warning--to sort, need author or key in bench
+Warning--to sort, need author or key in bench_act_pass
+Warning--empty journal in iozone_man
+Warning--empty year in iozone_man
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            506 strings with 3941 characters,
+and the built_in function-call counts, 537 in all, are:
+= -- 47
+> -- 9
+< -- 0
++ -- 5
+- -- 2
+* -- 23
+:= -- 79
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 24
+empty$ -- 64
+format.name$ -- 2
+if$ -- 119
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 1
+newline$ -- 15
+num.names$ -- 2
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 22
+stack$ -- 0
+substring$ -- 15
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 4
+while$ -- 2
+width$ -- 4
+write$ -- 23
+(There were 4 warnings)

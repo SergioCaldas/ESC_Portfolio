@@ -1,0 +1,8 @@
+\select@language {portuguese}
+\contentsline {section}{\numberline {1}Introdução}{2}{section.1}
+\contentsline {section}{\numberline {2}NAS Parallel Benchmark}{4}{section.2}
+\contentsline {section}{\numberline {3}PThreads}{18}{section.3}
+\contentsline {section}{\numberline {4}DTrace}{23}{section.4}
+\contentsline {section}{\numberline {5}DTrace e IOzone}{31}{section.5}
+\contentsline {section}{\numberline {6}Tutorial Perf}{38}{section.6}
+\contentsline {section}{\numberline {7}Conclusão}{51}{section.7}

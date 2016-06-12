@@ -1,0 +1,21 @@
+\select@language {portuguese}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}
+\contentsline {section}{\numberline {2}\textit {Perf}}{1}{section.2}
+\contentsline {section}{\numberline {3}Caracteriza\IeC {\c c}\IeC {\~a}o do Ambiente de Testes}{2}{section.3}
+\contentsline {section}{\numberline {4}Parte 1 - Procura dos pontos quentes de uma aplica\IeC {\c c}\IeC {\~a}o em execu\IeC {\c c}\IeC {\~a}o}{2}{section.4}
+\contentsline {subsection}{\numberline {4.1}Tempo de Execu\IeC {\c c}\IeC {\~a}o e Contagem de Eventos}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Procura de \textit {Hotsposts}}{3}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}\textit {Profiling} com o \textit {Perf}}{5}{subsection.4.3}
+\contentsline {section}{\numberline {5}Parte 2 - Contagem de eventos de Hardware}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}C\IeC {\'o}digo Fonte do Programa}{5}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}An\IeC {\'a}lise do Desempenho}{6}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}R\IeC {\'a}cio e Taxas}{6}{subsection.5.3}
+\contentsline {section}{\numberline {6}Parte 3 - Perfis de Eventos de Hardware}{7}{section.6}
+\contentsline {subsection}{\numberline {6.1}Modo Contagem: \textit {naive\_large} vs \textit {interchange\_large}}{7}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Visualiza\IeC {\c c}\IeC {\~a}o dos Perfis Baseados em Eventos}{8}{subsection.6.2}
+\contentsline {section}{\numberline {7}Modo Amostragem: \textit {naive\_large} vs \textit {interchange\_large}}{10}{section.7}
+\contentsline {section}{\numberline {8}\textit {Flame Graphs}}{10}{section.8}
+\contentsline {subsection}{\numberline {8.1}Gera\IeC {\c c}\IeC {\~a}o de \textit {Flame Graphs}}{10}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Flame Graph das 4 Aplica\IeC {\c c}\IeC {\~o}es Usadas neste Trabalho}{11}{subsection.8.2}
+\contentsline {section}{\numberline {9}Conclus\IeC {\~a}o}{11}{section.9}
+\contentsline {section}{Refer\^encias}{12}{section*.2}

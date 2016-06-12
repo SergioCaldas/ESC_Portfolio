@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{bench_act_pass}
+Active benchmarking.
+\newblock \url{http://www.brendangregg.com/activebenchmarking.html}.
+
+\bibitem{bench}
+Benchmark (computação).
+\newblock \url{https://pt.wikipedia.org/wiki/Benchmark}.
+
+\bibitem{iozone_man}
+W.~D. Norcott.
+\newblock Iozone filesystem benchmark.
+
+\end{thebibliography}

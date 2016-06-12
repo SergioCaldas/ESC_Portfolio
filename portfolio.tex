@@ -1,0 +1,200 @@
+\documentclass[a4paper]{article}
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{hyperref} 
+\usepackage{fancyref}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+ \geometry{
+    a4paper,
+    total={210mm,297mm},
+    left=20mm,
+    right=20mm,
+    top=20mm,
+    bottom=20mm,
+    }
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{listings,mdframed}
+
+
+\lstset{
+	language=c,
+	keywordstyle=\bfseries\ttfamily\color[rgb]{0,0,1},
+	identifierstyle=\ttfamily,
+	commentstyle=\color[rgb]{0.133,0.545,0.133},
+	stringstyle=\ttfamily\color[rgb]{0.627,0.126,0.941},
+	showstringspaces=false,
+	basicstyle=\tiny,
+numberstyle=\tiny,
+numbers=right,
+	stepnumber=1,
+	numbersep=10pt,
+	tabsize=1,
+	breaklines=true,
+	prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+	breakatwhitespace=false,
+	aboveskip={1.5\baselineskip},
+  columns=fixed,
+  upquote=true,
+  extendedchars=true,
+ frame=single,
+ inputencoding=utf8,
+    literate={á}{{\'a}}1 {ã}{{\~a}}1 {â}{{\~a}}1 {é}{{\'e}}1 {ê}{{\'e}}1 {ç}{{\'c}}1 {ú}{{\'u}}1 {ó}{{\'o}}1 {í}{{\'i}}1,
+ %backgroundcolor=\color{lbcolor},
+}
+
+\title{Portfólio de Trabalhos Práticos}                                % Title
+\author{Sérgio Caldas}                               % Author
+\date{Junho 2016}                                         % Date
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\theauthor}
+\lhead{\thetitle}
+\cfoot{\thepage}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+    \centering
+    \vspace*{0.5 cm}
+    \includegraphics[scale = 3.0]{logo.jpg}\\[1.0 cm]  % University Logo
+    \textsc{\LARGE Universidade do Minho}\\[0.5 cm] 
+    \textsc{\LARGE Escola de Engenharia}\\[0.5 cm]  
+    \textsc{\LARGE Departamento de Informática}\\[2.0 cm]  % University Name
+    \textsc{\Large Mestrado Integrado em Engenharia Informática - $4^o$ Ano}\\[0.5 cm]
+    \textsc{\Large Engenharia de Sistemas da Computação}\\[2.0 cm]               % Course Code
+    \rule{\linewidth}{0.2 mm} \\[0.4 cm]
+    { \huge \bfseries \thetitle}\\
+    \rule{\linewidth}{0.2 mm} \\[3.5 cm]
+    
+    \begin{minipage}{0.4\textwidth}
+        \begin{flushleft} \large
+            \emph{Professor:}\\
+            António Pina\\
+            Departamento de Informática\\
+            Computação Paralela e Distribuída\\
+            \end{flushleft}
+            \end{minipage}~
+            \begin{minipage}{0.4\textwidth}
+            
+            \begin{flushright} \large
+            \emph{Aluno:} \\
+            Sérgio Caldas\\
+            A57779\\
+        \end{flushright}
+        
+    \end{minipage}\\[2.0 cm]
+    
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Introdução}
+\noindent
+
+\par A disciplina de Engenharia de Sistemas da Computação (ESC) insere-se no perfil de mestrado de Computação Paralela e Distribuída do $4^o$ Ano do curso do Mestrado Integrado em Engenharia Informática. A disciplina é lecionada ao longo de todo o $2^o$ Semestre, sendo que a metodologia de avaliação desta se centra essencialmente na realização de um teste teórico e no desenvolvimento de trabalhos prático ao longo do semestre, com o objetivo de por em prática a matéria lecionada ao longo das aulas.
+
+\par A matéria lecionada ao longo do semestre, nesta disciplina, centra-se essencialmente na análise de desempenho e monitorização de ambientes linux. De maneira a podermos fazer esta análise e monitorização, foi-nos apresentado um conjunto de ferramentas capazes de o fazer de uma maneira bastante pormenorizada. As ferramentas em questão são: Dtrace, Perf, strace, truss entre outras, sendo que a mais lecionada foi a ferramenta Dtrace. Esta ferramenta é uma ferramenta que permite o desenvolvimento de scripts, que nos permitem fazer traçados dinâmicos do ambiente de estudo, esta ferramenta é bastante poderosa uma vez que permite o desenvolvimento de scripts focadas naquilo que queremos observar.
+
+\par Esta disciplina para além de nos preparar para a análise de desempenho e monitorização em ambientes Linux, também nos apresenta um basto conjunto de conceitos essenciais nos Sistemas de Computação, conceitos como: sistemas distribuidos (grids, clusters, e cloud), programação em memória partilhada com recurso a pthreads, sistemas de ficheiros, CPU's entre outros tópico teóricos.
+
+\par Neste portfólio são apresentados todos os trabalhos práticos desenvolvidos por mim ao longo do semestre. Trabalhos que tinham como objetivo por em prática toda a matéria referida atrás. Ao longo do semestre foram sugeridos 5 trabalhos práticos: 
+
+\begin{enumerate}
+	\item \textbf{NAS Parallel Benchmark} - O objetivo deste trabalho era testar e analisar uma gama de aplicações desenvolvidas em vários paradigmas (Sequêncial, Memória Partilhada e Memória Distribuida). No desenvolvimento deste trabalho efetuei uma basta gama de testes, no Cluster Search6, os testes foram feitos para diferentes compiladores, diferentes flags de compilação, diferentes máquinas entre outros fatores. Este trabalho permitiu-me adquirir várias competências tais como a automatização dos testes, análise e comparação de vários testes ao mesmo tempo bem como o tratamento dos dados obtidos.
+	\item \textbf{Programação em Memória Partilhada com Pthreads} - Este trabalho prático tinha como objetivo o desenvolvimento de uma aplicação num paradigma de memória distribuída recorrendo a POSIX Threads. Para isso desenvolvi uma aplicação, em que estava implementada a regra trapezoidal recorrendo a três tipos de exclusão mútua (mutex, semáforos, e busy wait). Este trabalho permitiu-me aperfeiçoar a minha habilidade no desenvolvimento de aplicações num paradigma de memória distribuída para além disso permitiu-me analisar o comportamento dos vários tipos de exclusão mutua bem como qual a melhor técnica a utilizar.
+	\item \textbf{DTrace} - Este trabalho tinha como objetivo exercitar o uso da ferramenta Dtrace, ferramenta essa que como foi referido anteriormente nos permite desenvolver scripts que nos permitem fazer traçados dinâmicos de uma aplicação. Para o desenvolvimento deste trabalho tive de estudar e praticar o uso da linguagem D (linguagem utilizada pelo DTrace). As scripts desenvolvidas fazem um traçado das chamadas ao sistema \textit{openat()} o PID do processo, o UID do utilizador, o GID do grupo o caminho absoluto para o ficheiro que for aberto, a cadeia de caracteres com as flags da chamada ao sistema openat() (O\_RDONLY, O\_WRONLY, O\_RDWR, O\_APPEND, O\_CREAT) e por fim o valor de retorno de chamada ao sistema. Este trabalho permitiu-me ganhar prática no desenvolvimento de scripts em D bem como posteriormente fazer uma análise detalhada do traçado obtido.
+	\item \textbf{DTrace e IOzone} - O desenvolvimento deste trabalho prático teve como objetivo a análise do Benchmark IOZone, benchmark este que foi desenvolvido com o objetivo de fazer uma gama de testes de desempenho de filesystems. Para fazer uma análise detalhada do Benchmark, recorri ao DTrace, e desenvolvi scripts que fazem traçados dinâmicos do comportamento desta aplicação para os testes definidos. Os testes por mim definidos foram testes que me permitiram analisar as operações de \textit{read, re-read, write e re-write} para dois sistemas de ficheiros (ZFS e UFZ). Mais uma vez com este trabalho desenvolvi ainda mais as minhas competências na criação de scripts em D, bem como me permitiu analisar e compreender de uma maneira mais objetiva o comportamento do filesystem em estudo.
+	\item \textbf{Tutorial Perf} - Este trabalho, focou-se essencialmente no seguimento de um tutorial Perf,sugerido pelo professor. O Perf é uma ferramenta de análise de performance desenvolvida para LINUX, esta ferramenta é acessível através da linha de comandos e fornece uma gama de sub-comandos bem como uma basta gama de contadores, tanto de hardware como de software. Estes comandos permitem fazer uma análise estatística de todo o sistema, quer ao nível do Kernel quer ao nível do utilizador. O tutorial em questão permitiu-me estudar uma forma para detectar pontos quentes de uma aplicação em execução, a utilização de contadores de hardware e ainda traçar perfis de eventos de hardware. Este tutorial permitiu-me desenvolver bastantes competências na utilização da ferramenta Perf e ainda ter uma perceção da potencialidade desta ferramenta.
+\end{enumerate}
+
+\newpage
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\section{NAS Parallel Benchmark}
+\{Página em Branco (Fazer scroll)\}
+\vspace*{\fill}
+\end{center}
+
+\includepdf[pages=- , pagecommand={}]{Report_TP1/relatorio_esc.pdf}
+
+\newpage
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\section{PThreads}
+\{Página em Branco (Fazer scroll)\}
+\vspace*{\fill}
+\end{center}
+
+\includepdf[pages=- , pagecommand={}]{Report_TP2/pthreads_report.pdf}
+
+\newpage
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\section{DTrace}
+\{Página em Branco (Fazer scroll)\}
+\vspace*{\fill}
+\end{center}
+
+\includepdf[pages=- , pagecommand={}]{Report_TP3/dtrace_report.pdf}
+
+\newpage
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\section{DTrace e IOzone}
+\{Página em Branco (Fazer scroll)\}
+\vspace*{\fill}
+\end{center}
+
+\includepdf[pages=- , pagecommand={}]{Report_TP4/iozone-report.pdf}
+
+\newpage
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\section{Tutorial Perf}
+\{Página em Branco (Fazer scroll)\}
+\vspace*{\fill}
+\end{center}
+
+\includepdf[pages=- , pagecommand={}]{Report_TP5/perf-report.pdf}
+
+\section{Conclusão}
+
+Como podemos verificar ao longo do semestre foram desenvolvidos os 5 trabalhos apresentados anteriormente, uns com um grau de dificuldade maior que outros, mas de uma maneira geral penso que o objetivo de todos eles foi cumprido. Todas as dificuldades encontradas, com alguma pesquisa e um pouco de analise da bibliografia disponibilizada, foram superadas. 
+
+Relativamente à disciplina em si, penso que a disciplina é extremamente util, e permitiu-me ganhar competências práticas e teóricas no que toca à analise e monitorização de aplicações. Para além desta componente prática que adquiri também posso dizer que fiquei com um conhecimento muito mais abrangente, a nível teórico do funcionamento de um sistema de computação. Todos estes conhecimentos adquiridos ao longo do semestre, irão-me permitir de agora em diante olhar de uma maneira diferente no momento em que tiver de desenvolver software.
+
+Ao longo do semestre apercebemos-nos que a matéria abrangida pela disciplina é muito extensa, sendo que nesta apenas foram lecionados alguns tópicos. Apesar disso, temos uma mais valia, relativamente aos assuntos que foram abordados na disciplina, que é o facto de existir uma basta gama de referências bibliográficas nas quais nos podemos basear no futuro. Posso dizer com toda a certeza, que mesmo depois de finalizadas as atividades letivas da disciplina, os assuntos abordados nesta, vão continuar a ser objeto de estudo ao longo do meu percurso académico e profissional, uma vez que todos os tópicos aqui abordados podem ser aplicados em qualquer área das ciências da computação.
+
+Para finalizar, posso concluir que a disciplina foi das disciplinas mais interessantes e úteis que já tive no meu percurso académico, sendo que, em forma de autoavaliação, posso concluir que o meu desempenho ao longo do semestre foi bastante positivo. Quanto ao conhecimento adquirido nesta UC, posso também concluir que, como referi anteriormente, foi bastante útil e interessante e de uma forma geral penso que esse conhecimento foi adquirido da forma que era suposto. Contudo reconheço que em alguns dos trabalho práticos desenvolvidos por mim poderia ter aprofundado ainda mais a pesquisa e o meu conhecimento.
+
+\end{document}
+              

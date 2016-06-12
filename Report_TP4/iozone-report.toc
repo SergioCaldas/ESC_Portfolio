@@ -1,0 +1,13 @@
+\select@language {portuguese}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}
+\contentsline {section}{\numberline {2}Ferramentas Utilizadas}{1}{section.2}
+\contentsline {section}{\numberline {3}\textit {IOZone Benchmark}}{2}{section.3}
+\contentsline {section}{\numberline {4}Testes/\textit {Flags} a Realizar/Usar com \textit {IOZone}}{2}{section.4}
+\contentsline {section}{\numberline {5}An\IeC {\'a}lise dos Resultados}{3}{section.5}
+\contentsline {subsection}{\numberline {5.1}\textit {Write} e \textit {Rewrite} - Testado na \textit {Home}}{3}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}\textit {Write} e \textit {Rewrite} - Testado na diretoria \textit {diskHitachi}}{4}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}\textit {Read} e \textit {Reread} - Testado na \textit {Home}}{4}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}\textit {Read} e \textit {Reread} - Testado na diretoria \textit {diskHitachi}}{5}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Tabela com todos os Resultados Obtidos}{6}{subsection.5.5}
+\contentsline {section}{\numberline {6}Conclus\IeC {\~a}o}{6}{section.6}
+\contentsline {section}{Refer\^encias}{6}{section*.2}

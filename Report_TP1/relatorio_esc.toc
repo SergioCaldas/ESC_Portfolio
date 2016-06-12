@@ -1,0 +1,26 @@
+\select@language {portuguese}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}
+\contentsline {section}{\numberline {2}Caracteriza\IeC {\c c}\IeC {\~a}o do Ambiente de Testes}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Nodos de Teste}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Compiladores Utilizados}{2}{subsection.2.2}
+\contentsline {section}{\numberline {3}Caracteriza\IeC {\c c}\IeC {\~a}o do \textit {Benchmark}}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Escolha de \textit {Kernels} e Classes de Dados}{3}{subsection.3.1}
+\contentsline {section}{\numberline {4}Testes Efectuados}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vers\IeC {\~a}o Sequencial}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Vers\IeC {\~a}o OMP}{3}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Vers\IeC {\~a}o MPI}{4}{subsection.4.3}
+\contentsline {section}{\numberline {5}An\IeC {\'a}lise de Resultados}{4}{section.5}
+\contentsline {subsection}{\numberline {5.1}Vers\IeC {\~a}o Sequencial}{4}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Vers\IeC {\~a}o OMP}{5}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Vers\IeC {\~a}o MPI}{7}{subsection.5.3}
+\contentsline {section}{\numberline {6}Ganhos}{8}{section.6}
+\contentsline {subsection}{\numberline {6.1}Sequencial vs OMP}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Sequencial vs MPI}{8}{subsection.6.2}
+\contentsline {section}{\numberline {7}Utilit\IeC {\'a}rios de Monitoriza\IeC {\c c}\IeC {\~a}o}{8}{section.7}
+\contentsline {subsection}{\numberline {7.1}Vers\IeC {\~a}o Sequencial}{8}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Vers\IeC {\~a}o OMP}{9}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Vers\IeC {\~a}o MPI}{10}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}An\IeC {\'a}lise Geral}{11}{subsection.7.4}
+\contentsline {section}{\numberline {8}Conclus\IeC {\~a}o}{11}{section.8}
+\contentsline {section}{Refer\^encias}{11}{section*.2}
+\contentsline {section}{Ap\^endice}{12}{section*.3}
